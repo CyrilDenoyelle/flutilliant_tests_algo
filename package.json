@@ -1,0 +1,18 @@
+{
+  "name": "flutilliant_tests_algo",
+  "version": "1.0.0",
+  "description": "- Smaller Primes I-1 Objectifs Déterminer tous les nombres premiers plus petits qu'une valeur d'entrée donnée (< N). I-2 Entrées/Sorties Input : N entier > 0. Output : le tableau avec les nombres premiers. I-3 Exemple N = 10 => Output : 2 3 5 7",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
