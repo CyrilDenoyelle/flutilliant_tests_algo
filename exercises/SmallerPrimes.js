@@ -9,7 +9,7 @@ const efficientIsPrime = (num) => {
     return true;
 }
 
-SmallerPrimes = function (num) {
+smallerPrimes = function (num) {
     const primes = [];
     for (let i = 2; i < num; i++) {
         if (efficientIsPrime(i)) {
@@ -19,5 +19,5 @@ SmallerPrimes = function (num) {
     return primes;
 }
 
-module.exports = SmallerPrimes;
+module.exports = smallerPrimes;
 
