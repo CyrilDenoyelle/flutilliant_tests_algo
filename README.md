@@ -1,4 +1,4 @@
-# flutilliant_tests_algo
+# tests_algo
  
 unit tests command line:
 ```
